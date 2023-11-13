@@ -27,7 +27,7 @@ void showNumbers(const std::vector<double>& v)
 
 int main()
 {
-   std::vector<double> numbers = {100, 56, 67, 3, 99, 101};
+   std::vector<double> numbers = {100, 56, 67, 3, 99, 101, 145};
    showNumbers(numbers);
    std::cout<<" the smallest value of above is "<<findsmallest(numbers)<< " Seungho "<<std::endl;
    return 0;
