@@ -1,6 +1,7 @@
 name: main
 on: push
 jobs:
+  main:
   name: Bazel build
   runs-on: ubuntu-latest
   steps:
